@@ -10,7 +10,6 @@ const Navbar = () => {
   const sidebarHandler=(e)=>{
     if(sideBar){
       const nav=document.getElementById('nav');
-      const list=document.getElementById('lists');
    /*    list.className='nav-list sideBarList' */
       nav.className='sidebar';
       setSideBar(false);
@@ -18,7 +17,6 @@ const Navbar = () => {
     }
     if(!sideBar){
       const nav=document.getElementById('nav');
-      const list=document.getElementById('lists');
       nav.className='navbar';
       setSideBar(true);
       return;
